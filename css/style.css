@@ -1,0 +1,14 @@
+@charset "utf-8";
+@import url('reset.css');
+@import url('common.css');/* 헤더 푸터 탑버튼 최대너비값 등 공통된 스타일들 다 들어감 */
+
+/* main_visual */
+.main_visual {
+    height: 100vh;
+}
+.main_visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
